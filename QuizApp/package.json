@@ -1,10 +1,9 @@
 {
-  "name": "vuecounterapp",
+  "name": "quizapp",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
-    "local": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
