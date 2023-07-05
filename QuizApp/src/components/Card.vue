@@ -1,18 +1,22 @@
 <script setup>
     import { defineProps } from 'vue';
+    import {useRouter} from 'vue-router';
+    const {quiz} = defineProps(['quiz']);
+    const router = useRouter();
 
-    const {quiz} = defineProps(['quiz'])
-
+    const routeToCard = () => {
+      router.push(`/quiz/${quiz.id}`)
+    }
 </script>
 
 <template>
-    <div class="card">
-        <img :src="quiz.img" alt="">
-        <div class="card-text">
-          <h2>{{ quiz.name }}</h2>
-          <p>{{quiz.questions.length}}</p>
-        </div>
-      </div>
+  <div class="card" @click="routeToCard">
+    <img :src="quiz.img" alt="">
+    <div class="card-text">
+      <h2>{{ quiz.name }}</h2>
+      <p>{{quiz.questions.length}} question</p>
+    </div>
+  </div>
 </template>
 
 
@@ -40,5 +44,9 @@
   font-weight: bold;
 }
 
+a{
+  text-decoration: none;
+  color: black
+}
 
 </style>
