@@ -1,0 +1,93 @@
+
+[
+    {
+        "id": 1,
+        "name" : "Araba1",
+        "price": 1500,
+        "year": 2015,
+        "contact": {
+            "dealer": "Cengiz1",
+            "number": "111111111"
+        }
+    },
+    {
+        "id": 2,
+        "name" : "Araba2",
+        "price": 1500,
+        "year": 2016,
+        "contact": {
+            "dealer": "Cengiz2",
+            "number": "222222222"
+        }
+    },
+    {
+        "id": 3,
+        "name" : "Araba3",
+        "price": 1500,
+        "year": 2017,
+        "contact": {
+            "dealer": "Cengiz",
+            "number": "333333333"
+        }
+    },{
+
+        "id": 4,
+        "name" : "Araba4",
+        "price": 1500,
+        "year": 2018,
+        "contact": {
+            "dealer": "Cengiz",
+            "number": "44444444"
+        }
+    },
+    {
+        "id": 5,
+        "name" : "Araba5",
+        "price": 1500,
+        "year": 2019,
+        "contact": {
+            "dealer": "Cengiz",
+            "number": "55555555"
+        }
+    },
+    {
+        "id": 6,
+        "name" : "Araba6",
+        "price": 1500,
+        "year": 2020,
+        "contact": {
+            "dealer": "Cengiz",
+            "number": "66666666"
+        }
+    },
+    {
+        "id": 7,
+        "name" : "Araba7",
+        "price": 1500,
+        "year": 2021,
+        "contact": {
+            "dealer": "Cengiz",
+            "number": "7777777"
+        }
+    },
+    {
+        "id": 8,
+        "name" : "Araba8",
+        "price": 1500,
+        "year": 2022,
+        "contact": {
+            "dealer": "Cengiz",
+            "number": "888888888"
+        }
+    },
+    {
+        "id": 9,
+        "name" : "Araba9",
+        "price": 1500,
+        "year": 2023,
+        "contact": {
+            "dealer": "Cengiz",
+            "number": "99999999"
+        }
+    }
+]
